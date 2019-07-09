@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return view('welcome');
 });
+
+Route::get('subirJuego', function (){
+	return view('subirJuego');
+});
+
+//Rutas Juegos
+Route::post('crearJuego', 'JuegoController@create');
