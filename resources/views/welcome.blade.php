@@ -32,7 +32,7 @@
             $('html').show();
             $("body").queryLoader2({
                 backgroundColor: '#fff',
-                barColor : '#35eef6',
+                barColor : '#e8242c',
                 barHeight: 4,
                 percentage:true,
                 deepSearch:true,
@@ -371,6 +371,7 @@
         </nav>
         @show
     </div>
+
     <!--layout-->
     <div class="wide_layout bg_light">
         <!--header markup-->
@@ -384,7 +385,7 @@
                         <!--logo-->
                         <div class="col-lg-2 col-md-2 col-sm-2 d_table_cell d_xs_block f_none v_align_m logo t_xs_align_c">
                             <a href="index.html" class="d_inline_m m_xs_top_20 m_xs_bottom_20">
-                                <img src="images/logo.gif" alt="">
+                                <img src="images/logo.png" alt="" width="65dp">
                             </a>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 t_align_r d_table_cell d_xs_block f_none">
@@ -396,7 +397,7 @@
                                 <nav role="navigation" class="d_inline_m d_xs_none m_xs_right_0 m_right_15 t_align_l m_xs_bottom_15">
                                     <ul class="hr_list main_menu fw_light">
                                         <li class="container3d relative f_xs_none m_xs_bottom_5">
-                                            <a class="color_dark fs_large relative r_xs_corners" href="#">Rooms</a>
+                                            <a class="color_dark fs_large relative r_xs_corners" href="#">Roms</a>
                                         </li>
                                         <li class="container3d relative f_xs_none m_xs_bottom_5">
                                             <a class="color_dark fs_large relative r_xs_corners" href="shortcodes_elements.html">Emuladores</a>
@@ -426,100 +427,118 @@
             <div class="r_slider">
                 <ul>
                     <li data-transition="fade" data-slotamount="10">
-                     <img src="images/imgRetrokp.jpg" alt="" data-bgfit="cover" data-bgposition="center center">
-                     <div class="caption sfl str" data-x="left" data-y="108" data-speed="700"><h1 class="color_dark fw_light">ROOMS & EMULADORES</h1></div>
-                     <div class="caption sfl str" data-x="left" data-y="243" data-speed="700" data-start="1200">Descargue y juegue juegos retro en su PC, Mac o Android</div>
-                 </li>
-             </ul>
-         </div>
-     </section>
-     <!--content-->
-     <div>
-        @yield('Contenido')
-    </div>
-    <!--who we are-->
-    <section class="section_offset">
-        <div class="container t_align_c">
-            <h3 class="color_dark fw_light m_bottom_15 heading_1" data-appear-animation="bounceInLeft">Who We Are</h3>
-            <p class="m_bottom_35 heading_2" data-appear-animation="bounceInLeft" data-appear-animation-delay="150">Donec eget tellus non erat lacinia fermentum. </p>
-            <div class="tabs">
-                <!--tabs nav-->
-                <ul class="tabs_nav hr_list d_inline_b d_xs_block m_bottom_30 m_xs_bottom_20" data-appear-animation="bounceInLeft" data-appear-animation-delay="800">
-                    <li class="f_xs_none"><a href="#tab-1" class="color_dark d_block n_sc_hover">The Company</a></li>
-                    <li class="f_xs_none"><a href="#tab-2" class="color_dark d_block n_sc_hover">Our Philosophy</a></li>
-                    <li class="f_xs_none"><a href="#tab-3" class="color_dark d_block n_sc_hover">Our Mission</a></li>
-                    <li class="f_xs_none"><a href="#tab-4" class="color_dark d_block n_sc_hover">Why Choose Us</a></li>
+                        <<<<<<< HEAD
+                        <img src="images/imgRetrokp.jpg" alt="" data-bgfit="cover" data-bgposition="center center">
+                        <div class="caption sfl str" data-x="left" data-y="108" data-speed="700"><h1 class="color_dark fw_light">ROOMS & EMULADORES</h1></div>
+                        <div class="caption sfl str" data-x="left" data-y="243" data-speed="700" data-start="1200">Descargue y juegue juegos retro en su PC, Mac o Android</div>
+                    </li>
                 </ul>
-                <!--tabs content-->
-                <article id="tab-1" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_20">
-                            <img src="images/home_img_1.jpg" class="r_corners" alt="">
-                        </div>
-                        <div class="col-lg-6 col-md-6 t_align_l fw_light">
-                            <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
-                            <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                            <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
-                        </div>
-                    </div>
-                </article>
-                <article id="tab-2">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 m_sm_bottom_20 t_align_l fw_light">
-                            <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
-                            <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                            <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <img src="images/home_img_1.jpg" class="r_corners" alt="">
-                        </div>
-                    </div>
-                </article>
-                <article id="tab-3">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 m_sm_bottom_20">
-                            <div class="iframe_video_wrap">
-                                <iframe src="https://www.youtube.com/embed/Du8ld5hrqN0?enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0"></iframe>
+            </div>
+        </section>
+        <!--content-->
+        <div>
+            @yield('Contenido')
+        </div>
+        <!--who we are-->
+        <section class="section_offset">
+            <div class="container t_align_c">
+                <h3 class="color_dark fw_light m_bottom_15 heading_1" data-appear-animation="bounceInLeft">Who We Are</h3>
+                <p class="m_bottom_35 heading_2" data-appear-animation="bounceInLeft" data-appear-animation-delay="150">Donec eget tellus non erat lacinia fermentum. </p>
+                <div class="tabs">
+                    <!--tabs nav-->
+                    <ul class="tabs_nav hr_list d_inline_b d_xs_block m_bottom_30 m_xs_bottom_20" data-appear-animation="bounceInLeft" data-appear-animation-delay="800">
+                        <li class="f_xs_none"><a href="#tab-1" class="color_dark d_block n_sc_hover">The Company</a></li>
+                        <li class="f_xs_none"><a href="#tab-2" class="color_dark d_block n_sc_hover">Our Philosophy</a></li>
+                        <li class="f_xs_none"><a href="#tab-3" class="color_dark d_block n_sc_hover">Our Mission</a></li>
+                        <li class="f_xs_none"><a href="#tab-4" class="color_dark d_block n_sc_hover">Why Choose Us</a></li>
+                    </ul>
+                    <!--tabs content-->
+                    <article id="tab-1" data-appear-animation="fadeInUp" data-appear-animation-delay="450">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 m_xs_bottom_20">
+                                <img src="images/home_img_1.jpg" class="r_corners" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                                <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
+                                <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                                <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 t_align_l fw_light">
-                            <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
-                            <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                            <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                    </article>
+                    <article id="tab-2">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 m_sm_bottom_20 t_align_l fw_light">
+                                <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
+                                <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                                <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <img src="images/home_img_1.jpg" class="r_corners" alt="">
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article id="tab-4" class="t_align_l fw_light">
-                    <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
-                    <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                    <p class="m_bottom_15">Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
-                    <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
-                    <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                    <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
-                </article>
+                    </article>
+                    <article id="tab-3">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 m_sm_bottom_20">
+                                <div class="iframe_video_wrap">
+                                    <iframe src="https://www.youtube.com/embed/Du8ld5hrqN0?enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0"></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 t_align_l fw_light">
+                                <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
+                                <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                                <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="tab-4" class="t_align_l fw_light">
+                        <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
+                        <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                        <p class="m_bottom_15">Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                        <p class="m_bottom_15">Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipis. </p>
+                        <p class="m_bottom_15">Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                        <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
-    <!--what we do-->
-    <section class="section_offset image_bg_1">
-        <div class="container">
-            <h3 class="color_dark fw_light m_bottom_15 t_align_c heading_3" data-appear-animation="bounceInLeft">What We Do</h3>
-            <p class="m_bottom_40 t_align_c heading_4" data-appear-animation="bounceInLeft" data-appear-animation-delay="150">Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. </p>
-            <div data-appear-animation="fadeInUp" data-appear-animation-delay="800">
-                <!--first four services-->
-                <div class="row m_bottom_30" >
+        </section>
+        <!--what we do-->
+        <section class="section_offset image_bg_1">
+            <div class="container">
+                <h3 class="color_dark fw_light m_bottom_15 t_align_c heading_3" data-appear-animation="bounceInLeft">What We Do</h3>
+                <p class="m_bottom_40 t_align_c heading_4" data-appear-animation="bounceInLeft" data-appear-animation-delay="150">Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. </p>
+                <div data-appear-animation="fadeInUp" data-appear-animation-delay="800">
+                    <!--first four services-->
+                    <div class="row m_bottom_30" >
+                        <!--service-->
+                        <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
+                            <figure class="item_services">
+                                <h6 class="m_bottom_5 relative">
+                                    <a href="#" class="color_dark d_block n_sc_hover">Web Design</a>
+                                    <span class="d_block icon_wrap_size_3 circle color_pink wrapper animation_fill">
+                                        <i class="icon-feather tr_all"></i>
+                                    </span>
+                                </h6>
+                                <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
+                                <a href="#" class="color_dark fs_medium color_pink_hover">Read More
+                                 <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+                                    <i class="icon-angle-right"></i>
+                                </span>
+                            </a>
+                        </figure>
+                    </div>
                     <!--service-->
                     <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
                         <figure class="item_services">
                             <h6 class="m_bottom_5 relative">
-                                <a href="#" class="color_dark d_block n_sc_hover">Web Design</a>
+                                <a href="#" class="color_dark d_block n_sc_hover">Branding</a>
                                 <span class="d_block icon_wrap_size_3 circle color_pink wrapper animation_fill">
-                                    <i class="icon-feather tr_all"></i>
+                                    <i class="icon-tag tr_all"></i>
                                 </span>
                             </h6>
                             <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
                             <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-                               <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+                             <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
                                 <i class="icon-angle-right"></i>
                             </span>
                         </a>
@@ -529,14 +548,14 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
                     <figure class="item_services">
                         <h6 class="m_bottom_5 relative">
-                            <a href="#" class="color_dark d_block n_sc_hover">Branding</a>
+                            <a href="#" class="color_dark d_block n_sc_hover">Animation &amp; Motion</a>
                             <span class="d_block icon_wrap_size_3 circle color_pink wrapper animation_fill">
-                                <i class="icon-tag tr_all"></i>
+                                <i class="icon-video tr_all"></i>
                             </span>
                         </h6>
                         <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
                         <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-                           <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+                         <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
                             <i class="icon-angle-right"></i>
                         </span>
                     </a>
@@ -546,72 +565,55 @@
             <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
                 <figure class="item_services">
                     <h6 class="m_bottom_5 relative">
-                        <a href="#" class="color_dark d_block n_sc_hover">Animation &amp; Motion</a>
+                        <a href="#" class="color_dark d_block n_sc_hover">Web Development</a>
                         <span class="d_block icon_wrap_size_3 circle color_pink wrapper animation_fill">
-                            <i class="icon-video tr_all"></i>
+                            <i class="icon-tools tr_all"></i>
                         </span>
                     </h6>
                     <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
                     <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-                       <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+                     <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
                         <i class="icon-angle-right"></i>
                     </span>
                 </a>
             </figure>
         </div>
+    </div>
+    <!--second four services-->
+    <div class="row services_animate">
         <!--service-->
         <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
             <figure class="item_services">
                 <h6 class="m_bottom_5 relative">
-                    <a href="#" class="color_dark d_block n_sc_hover">Web Development</a>
+                    <a href="#" class="color_dark d_block n_sc_hover">E-commerce</a>
                     <span class="d_block icon_wrap_size_3 circle color_pink wrapper animation_fill">
-                        <i class="icon-tools tr_all"></i>
+                        <i class="icon-basket tr_all"></i>
                     </span>
                 </h6>
                 <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
                 <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-                   <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+                 <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
                     <i class="icon-angle-right"></i>
                 </span>
             </a>
         </figure>
     </div>
-</div>
-<!--second four services-->
-<div class="row services_animate">
     <!--service-->
     <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
         <figure class="item_services">
             <h6 class="m_bottom_5 relative">
-                <a href="#" class="color_dark d_block n_sc_hover">E-commerce</a>
+                <a href="#" class="color_dark d_block n_sc_hover">Mobile</a>
                 <span class="d_block icon_wrap_size_3 circle color_pink wrapper animation_fill">
-                    <i class="icon-basket tr_all"></i>
+                    <i class="icon-mobile tr_all"></i>
                 </span>
             </h6>
             <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
             <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-               <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+             <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
                 <i class="icon-angle-right"></i>
             </span>
         </a>
     </figure>
-</div>
-<!--service-->
-<div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
-    <figure class="item_services">
-        <h6 class="m_bottom_5 relative">
-            <a href="#" class="color_dark d_block n_sc_hover">Mobile</a>
-            <span class="d_block icon_wrap_size_3 circle color_pink wrapper animation_fill">
-                <i class="icon-mobile tr_all"></i>
-            </span>
-        </h6>
-        <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
-        <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-           <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
-            <i class="icon-angle-right"></i>
-        </span>
-    </a>
-</figure>
 </div>
 <!--service-->
 <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
@@ -624,7 +626,7 @@
         </h6>
         <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
         <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-           <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+         <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
             <i class="icon-angle-right"></i>
         </span>
     </a>
@@ -641,7 +643,7 @@
         </h6>
         <p class="fs_medium m_bottom_10">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et.</p>
         <a href="#" class="color_dark fs_medium color_pink_hover">Read More
-           <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
+         <span class="d_inline_m m_left_5 icon_wrap_size_0 circle color_grey_light tr_all">
             <i class="icon-angle-right"></i>
         </span>
     </a>
@@ -650,7 +652,30 @@
 </div>
 </div>
 </div>
+
+<img src="images/imgRetrokp.jpg" alt="" data-bgfit="cover" data-bgposition="center center">
+<div class="caption sfl str" data-x="left" data-y="155" data-speed="700"><h1 class="fw_ex_bold" style="color:#f1eef0"> ROOMS & EMULADORES </h1></div>
+<div class="caption sfl str" data-x="left" data-y="240" data-speed="700" data-start="1200"><h4 class="fw_light" style="color:#f1eef0">Descargue y juegue juegos retro en su PC, Mac o Android</h4></div>
+</li>
+</div>
+</li>
+</ul>
+</div>
 </section>
+<!--content-->
+<!--Juegos populares-->
+<section class="section_offset image_bg_1">
+    <div class="container">
+        <h3 class="color_light fw_light m_bottom_15 heading_1" data-appear-animation="bounceInLeft">Juegos populares</h3>
+        <div class="tabs">
+            <!--IMG de los juegos populares-->
+        </div>
+    </div>
+
+</section>
+
+
+
 <!--our featured projects-->
 <section class="section_offset relative">
     <div class="container">
